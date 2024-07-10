@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;900&family=Rubik+Moonrocks&display=swap');
+
+.back{
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.form{
+    display: flex;
+    height: 45%;
+    align-self:center;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.571);
+    z-index: 0;
+    width: 30%;
+    min-width: 350px;
+    border-radius: 25px;
+}
+
+
+.innerform{
+    display: flex;
+    align-self: center;
+    z-index: 1;
+}
+
+input{
+    margin: 7px;
+    border: 0px;
+    background-color: rgb(234, 234, 234);
+    height: 35px;
+    border-radius: 10px;
+}
+
+input:focus{
+    background-color: white;
+    outline: none;
+}
+
+input[type = email]{
+    width: 250px;
+    margin-top: 10px;
+}
+input[type = password]{
+    width: 250px;
+}
+input[type = text]{
+    width: 250px;
+}
+
+input,select{
+    padding-left: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    padding-left: 10px;
+    transform: translateX(125px);
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background:dodgerblue linear-gradient(11deg,aqua, dodgerblue, deeppink) fixed;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.button{
+    margin: 7px;
+    border: 0px;
+    background: rgb(234, 234, 234);
+    height: 35px;
+    border-radius: 10px;
+}  
+
+.button:focus{
+    background:linear-gradient(11deg,aqua, dodgerblue, deeppink);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.title-signup{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform: translateY(18vh);
+    color: white;
+    font-family: 'Rubik Moonrocks', cursive;
+  font-size:xx-large
+}

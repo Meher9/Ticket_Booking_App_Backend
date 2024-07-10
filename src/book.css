@@ -1,0 +1,59 @@
+.sectionbook {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 500px;
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
+.sectionbook > div {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.sectionbook > div:hover {
+    cursor: pointer;
+}
+
+.disabledbook {
+    background-color: dodgerblue;
+}
+.bookedbook {
+    background-color: grey;
+}
+
+
+.sectionbook .disabled:hover {
+    cursor: not-allowed;
+}
+
+.seating-arrangement{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.booknow{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+.seating-details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(169, 169, 169);
+    font-size: large;
+}
+
+.seating-details div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sd{
+    display: flex;
+    align-items: center;
+}

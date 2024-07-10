@@ -1,0 +1,105 @@
+.header{
+    height: 10vh;
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding:5vh;
+    padding-bottom: 0px;
+}
+.title-dashboard{
+    display: flex;
+    
+    left: 10%;
+    color: white;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size:xx-large
+}
+.signout button{
+    transform: translateY(10px);
+    outline: none;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.signout span{
+    color: white;
+    font-size: large;
+}
+.heading-dashboard{
+    font-size: xx-large;
+}
+
+.movie-comp{
+    padding: 40px;
+}
+
+.card{
+    margin: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style:  solid ;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img{
+    border-radius: 7px;
+}
+.card-movie-title{
+    padding-left: 4px;
+}
+.card-book-now-button-dashboard button{
+    background-color: rgb(0, 183, 255);
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 0px;
+}
+.card-book-now-button-dashboard button:focus{
+    background-color: dodgerblue;
+}
+
+.movielist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+}
+
+.theaterlist-component{
+    width: 25%;
+    margin: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 15px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-color:rgb(219, 233, 233);
+    border-radius: 10px;
+
+}
+.theater-heading-dashboard{
+    font-size: x-large;
+}
+.theaterlist-component a:hover{
+    text-decoration: underline
+
+}
+.theaterlist-list{
+    padding-top: 12px;
+}
+
+@media only screen and (max-width: 900px){
+    .theaterlist-component{
+        display: none;
+    }
+}

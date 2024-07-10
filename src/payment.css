@@ -1,0 +1,66 @@
+.backp{
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+.ticket-summary{
+    display: flex;
+    height: 40vh;
+    align-self:center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    z-index: 0;
+    width: 40%;
+    min-width: 350px;
+    border-radius: 25px;
+}
+.bill-details{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-row: ;
+    z-index: 1;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+.flex-column div{
+    padding: 5px 0px 5px 20px;
+}
+
+.billheading{
+    font-size: large;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.paynow button{
+    margin: 7px;
+    border: 0px;
+    background: rgb(234, 234, 234);
+    height: 35px;
+    border-radius: 10px;
+}
+.paynow button:hover{
+    background-color: rgb(155, 155, 155);
+}
+
+.paynow button:focus{
+    background:linear-gradient(11deg,aqua, dodgerblue, deeppink);
+}
+.title{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.theatername{
+    font-size: large;
+    font-weight: 500;
+}
+
+.amount{
+    font-size: x-large;
+    font-weight: 600;
+}
